@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDEK.PCG.Core", "IDEK.PCG.Core\IDEK.PCG.Core.csproj", "{9EC12F18-119B-42A5-A1B7-A541C3EE9B15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDEK.PCG.StructureGen.FloorDivision", "IDEK.PCG.StructureGen.FloorDivision\IDEK.PCG.StructureGen.FloorDivision.csproj", "{88B9F047-9536-4635-91BA-0E27720F0BD7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDEK.PCG.StructureGen.FloorDivisionRunner", "IDEK.PCG.StructureGen.FloorDivisionRunner\IDEK.PCG.StructureGen.FloorDivisionRunner.csproj", "{EF116B1E-3E27-4F94-BDBA-F79857F7DCA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IDEK.PCG.StructureGen.Core", "IDEK.PCG.StructureGen.Core\IDEK.PCG.StructureGen.Core.csproj", "{AEB50680-D150-49FA-A180-691F05A8ADBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9EC12F18-119B-42A5-A1B7-A541C3EE9B15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EC12F18-119B-42A5-A1B7-A541C3EE9B15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EC12F18-119B-42A5-A1B7-A541C3EE9B15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EC12F18-119B-42A5-A1B7-A541C3EE9B15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88B9F047-9536-4635-91BA-0E27720F0BD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88B9F047-9536-4635-91BA-0E27720F0BD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88B9F047-9536-4635-91BA-0E27720F0BD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88B9F047-9536-4635-91BA-0E27720F0BD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF116B1E-3E27-4F94-BDBA-F79857F7DCA8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF116B1E-3E27-4F94-BDBA-F79857F7DCA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF116B1E-3E27-4F94-BDBA-F79857F7DCA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF116B1E-3E27-4F94-BDBA-F79857F7DCA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEB50680-D150-49FA-A180-691F05A8ADBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEB50680-D150-49FA-A180-691F05A8ADBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEB50680-D150-49FA-A180-691F05A8ADBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEB50680-D150-49FA-A180-691F05A8ADBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
