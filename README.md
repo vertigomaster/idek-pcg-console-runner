@@ -2,4 +2,9 @@
 To keep the submodules in line, there is a provided update-modules.sh script that should automatically retrieve them, pull from the respective main branches, and check them out
 this helps immensely with simultaneous development across the libraries, which is sometimes necessary.
 
-If you are on Windows, the easiest way to run this is via the Git Bash terminal.
+If you are on Windows, the easiest way to run this is via the Git Bash terminal
+Open that, navigate to the repo directory, and run the following:
+
+```bash
+./update-modules.sh
+```
