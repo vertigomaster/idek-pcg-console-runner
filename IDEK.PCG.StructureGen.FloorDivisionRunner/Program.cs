@@ -1,4 +1,4 @@
-﻿namespace IDEK.PCG.StructureGen;
+﻿namespace IDEK.PCG.ConsoleRunner;
 
 internal class Program
 {

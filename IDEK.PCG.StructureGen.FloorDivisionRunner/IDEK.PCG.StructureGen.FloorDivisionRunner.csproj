@@ -5,6 +5,8 @@
         <TargetFramework>net9.0</TargetFramework>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
+        <AssemblyName>IDEK.PCG.ConsoleRunner</AssemblyName>
+        <RootNamespace>IDEK.PCG.ConsoleRunner</RootNamespace>
     </PropertyGroup>
 
 </Project>
