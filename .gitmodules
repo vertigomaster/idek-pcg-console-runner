@@ -1,9 +1,12 @@
 [submodule "IDEK.PCG.Core"]
 	path = IDEK.PCG.Core
 	url = https://github.com/vertigomaster/idek-pcg-core
+	branch = main
 [submodule "IDEK.PCG.StructureGen.Core"]
 	path = IDEK.PCG.StructureGen.Core
 	url = https://github.com/vertigomaster/idek-pcg-structure-gen
+	branch = main
 [submodule "IDEK.PCG.StructureGen.FloorDivision"]
 	path = IDEK.PCG.StructureGen.FloorDivision
 	url = https://github.com/vertigomaster/idek-pcg-structure-floordivision
+	branch = main
