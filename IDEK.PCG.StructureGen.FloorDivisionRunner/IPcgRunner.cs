@@ -2,5 +2,9 @@ namespace IDEK.PCG.ConsoleRunner;
 
 public interface IPcgRunner
 {
-    public Run();
+    /// <summary>
+    /// Runs a procedure and supplies a status code. 
+    /// </summary>
+    /// <returns></returns>
+    public int Run();
 }

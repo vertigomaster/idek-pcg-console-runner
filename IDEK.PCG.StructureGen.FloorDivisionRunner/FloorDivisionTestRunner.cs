@@ -5,6 +5,7 @@ namespace IDEK.PCG.ConsoleRunner;
 
 public class FloorDivisionTestRunner : IPcgRunner
 {
+    //TODO: Serialize from JSON instead
     public static Room[] BuildTestRooms() => [
         new Room() {
             Name = "Master Suite",
@@ -99,8 +100,43 @@ public class FloorDivisionTestRunner : IPcgRunner
         }
     ];
 
-    public void RunIdealRoomPass()
+    /// <summary>
+    /// Fills out new Lists/data structures ahead of time so that they are cached for the various passes.
+    /// </summary>
+    protected virtual void PopulateFilteredRoomSubsets()
+    {
+        
+    }
+    
+    /// <summary>
+    /// We first see if we can successfully place any rooms that require specific floors.
+    /// </summary>
+    protected virtual void RunIdealRoomPass()
     {
             
     }
+
+    protected virtual void RunNonPrefRoomPass()
+    {
+        
+    }
+
+    /// <summary>
+    /// If the building proves too large or doesn't fit within the tolerances of the desired floor ratios,
+    /// we need to find rooms that we can squish down.
+    /// </summary>
+    protected virtual void RunSquishPass()
+    {
+        
+    }
+
+    #region Implementation of IPcgRunner
+
+    /// <inheritdoc />
+    public int Run()
+    {
+        return 0;
+    }
+
+    #endregion
 }
